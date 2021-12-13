@@ -1,0 +1,31 @@
+.input {
+  border-radius: 30px;
+  border: 1px solid $color-borders;
+  color: $color-headings;
+  font-size: 2rem;
+  outline: 0;
+  padding: 1.5rem 3.5rem;
+  ::placeholder {
+    color: #cdcbd7;
+  }
+}
+
+.input-group {
+  border: 1px solid $color-borders;
+  border-radius: 30px;
+  display: flex;
+  .input {
+    border: 0;
+    flex-grow: 1;
+    padding: 1.5rem 1rem;
+  }
+  .btn {
+    margin: 4px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .input {
+    font-size: 1.5rem;
+  }
+}
