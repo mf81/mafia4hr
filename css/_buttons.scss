@@ -1,0 +1,57 @@
+@mixin bg-hover($color-background: $color-primary) {
+  transition: background 0.5s;
+  background: lighten($color-background, 10%);
+}
+.btn {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  padding: 2rem 3rem;
+  border: 0;
+  border-radius: 40px;
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: center;
+  &--primary {
+    background: $color-primary;
+    color: white;
+  }
+  &--primary:hover {
+    @include bg-hover($color-primary);
+  }
+  &--secondary {
+    background: $color-secondary;
+    color: white;
+  }
+  &--secondary:hover {
+    @include bg-hover($color-secondary);
+  }
+  &--accent {
+    background: $color-accent;
+    color: white;
+  }
+  &--accent:hover {
+    @include bg-hover($color-accent);
+  }
+  &--outline {
+    background: white;
+    color: $color-headings;
+    border: 2px solid $color-headings;
+  }
+  &--outline:hover {
+    @include bg-hover($color-headings);
+    color: white;
+  }
+
+  &--block {
+    width: 100%;
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .btn {
+    font-size: 1.5rem;
+  }
+}

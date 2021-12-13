@@ -1,3 +1,10 @@
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -153,5 +160,75 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.btn {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  padding: 2rem 3rem;
+  border: 0;
+  border-radius: 40px;
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.btn--primary {
+  background: #2584ff;
+  color: white;
+}
+
+.btn--primary:hover {
+  -webkit-transition: background 0.5s;
+  transition: background 0.5s;
+  background: #58a1ff;
+}
+
+.btn--secondary {
+  background: #00d9ff;
+  color: white;
+}
+
+.btn--secondary:hover {
+  -webkit-transition: background 0.5s;
+  transition: background 0.5s;
+  background: #33e1ff;
+}
+
+.btn--accent {
+  background: #ff3400;
+  color: white;
+}
+
+.btn--accent:hover {
+  -webkit-transition: background 0.5s;
+  transition: background 0.5s;
+  background: #ff5d33;
+}
+
+.btn--outline {
+  background: white;
+  color: #1b0760;
+  border: 2px solid #1b0760;
+}
+
+.btn--outline:hover {
+  -webkit-transition: background 0.5s;
+  transition: background 0.5s;
+  background: #280a90;
+  color: white;
+}
+
+.btn--block {
+  width: 100%;
+  display: inline-block;
+}
+
+@media screen and (min-width: 1024px) {
+  .btn {
+    font-size: 1.5rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
