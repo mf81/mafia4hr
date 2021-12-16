@@ -15,4 +15,7 @@
     background: $color-secondary;
     color: white;
   }
+  &--secondary .badge--secondary {
+    background: #02cdf1;
+  }
 }
