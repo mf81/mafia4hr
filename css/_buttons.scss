@@ -44,10 +44,13 @@
     @include bg-hover($color-headings);
     color: white;
   }
-
   &--block {
     width: 100%;
     display: inline-block;
+  }
+  &--long {
+    padding-left: 6rem;
+    padding-right: 6rem;
   }
 }
 
