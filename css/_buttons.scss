@@ -1,3 +1,4 @@
+/* buttons */
 @mixin bg-hover($color-background: $color-primary) {
   transition: background 0.5s;
   background: lighten($color-background, 10%);
