@@ -1,0 +1,9 @@
+<svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51 51" id="chevron">
+    <circle cx="25.5" cy="25.5" fill="#393939" r="25.5"></circle>
+    <g fill="#fff">
+      <rect height="15.24" rx=".8" transform="matrix(.78 -.63 .63 .78 -21.26 15.39)" width="1.6" x="24.4" y="27.9"></rect>
+      <rect height="15.24" rx=".8" transform="matrix(.79547348 .6059884 -.6059884 .79547348 24 -21.9)" width="1.6" x="33.3" y="27.9"></rect>
+    </g>
+  </symbol>
+</svg>

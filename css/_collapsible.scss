@@ -1,0 +1,32 @@
+/* collabsible */
+.collaps {
+  &--expander &__chevron {
+    transform: rotate(0);
+    transition: all 0.3s;
+  }
+  &--expander &__content {
+    // display: block;
+    opacity: 1;
+    max-height: 100vh;
+  }
+  &__header {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__heading {
+    margin-top: 0;
+    font-size: 3rem;
+  }
+  &__content {
+    //display: none;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.3s;
+  }
+
+  &__chevron {
+    transform: rotate(-90deg);
+    transition: all 0.3s;
+  }
+}
