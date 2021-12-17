@@ -8,14 +8,24 @@
   &--secondary {
     fill: $color-secondary;
   }
-}
+  &--white {
+    fill: white;
+  }
+  &--small {
+    width: 30px;
+    height: 30px;
+  }
 
-.icon-container {
-  background: $icon-background;
-  width: 64px;
-  height: 64px;
-  border-radius: 100%;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
+  &-container {
+    background: $icon-background;
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &-container-accent {
+    background: $color-accent;
+  }
 }
