@@ -1,0 +1,25 @@
+/* blocks */
+.block {
+  padding: 6rem 2rem;
+  &__header {
+    text-align: center;
+  }
+  &__heading {
+    margin-top: 0;
+  }
+  &--dark {
+    background: black;
+    color: #7b858b;
+    .block__heading {
+      color: white;
+    }
+  }
+  &--skewed-right {
+    padding-bottom: 10rem;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+  }
+  &--skewed-left {
+    padding-bottom: 10rem;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  }
+}
