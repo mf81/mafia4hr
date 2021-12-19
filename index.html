@@ -20,7 +20,25 @@
     <div class="card testimonial">
       <div class="grid grid--col-2">
         <div class="testimonial__img">
-          <img src="img/mf.jpg" alt="Maciej Fijałkowski" />
+          <picture>
+            <source
+              type="image/webp"
+              srcset="
+                img/resize/mf.webp    1x,
+                img/resize/mf@2x.webp 2x,
+                img/resize/mf@3x.webp 3x
+              "
+            />
+            <source
+              type="image/png"
+              srcset="
+                img/resize/mf.png    1x,
+                img/resize/mf@2x.png 2x,
+                img/resize/mf@3x.png 3x
+              "
+            />
+            <img src="img/resize/mf.png" alt="Maciej Fijałkowski" />
+          </picture>
           <span class="icon-container icon-container-accent">
             <svg class="icon icon--white icon--small">
               <use xlink:href="img/sprite.svg#quotes"></use>
@@ -29,14 +47,14 @@
         </div>
         <blockquote class="quote">
           <p class="quote__text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sapiente
-            possimus minima cum voluptas ab architecto quibusdam rem aliquam eos!
-            Odit labore incidunt eveniet necessitatibus libero eaque accusamus enim
-            maxime.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            sapiente possimus minima cum voluptas ab architecto quibusdam rem
+            aliquam eos! Odit labore incidunt eveniet necessitatibus libero
+            eaque accusamus enim maxime.
           </p>
           <footer>
             <div class="media">
-              <div class="media__img"> 
+              <div class="media__img">
                 <svg class="icon icon--primary quote__line">
                   <use xlink:href="img/sprite.svg#line"></use>
                 </svg>
@@ -45,6 +63,7 @@
                 <h3 class="media__title quote__author">Maciej Fijałkowski</h3>
                 <p class="quote__organization">Mafia Co.</p>
               </div>
+            </div>
           </footer>
         </blockquote>
       </div>
