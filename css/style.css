@@ -741,7 +741,7 @@ a {
 
 .banner__img {
   margin: 0 auto 5rem;
-  width: 30rem;
+  width: 50%;
 }
 
 .banner__content {
@@ -768,7 +768,7 @@ a {
   }
   .banner__img {
     margin: 0 auto 5rem;
-    width: 50rem;
+    width: 80%;
   }
 }
 /*# sourceMappingURL=style.css.map */
