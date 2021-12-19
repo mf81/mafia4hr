@@ -23,3 +23,11 @@
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .block {
+    &__header {
+      text-align: left;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+/* banner */
+.banner {
+  &__tagline {
+    font-size: 2rem;
+    color: #b9c3cf;
+    letter-spacing: 1px;
+    margin: 2rem 0 5rem;
+  }
+  &__img {
+    margin: 0 auto 5rem;
+    width: 30rem;
+  }
+  &__content {
+    align-self: center;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .banner {
+    padding: 0;
+    &__img {
+      margin-bottom: 1rem;
+    }
+  }
+}
+@media screen and (min-width: 880px) {
+  .banner {
+    padding: 0;
+    &__img {
+      margin-bottom: 1rem;
+    }
+    &__img {
+      margin: 0 auto 5rem;
+      width: 50rem;
+    }
+  }
+}

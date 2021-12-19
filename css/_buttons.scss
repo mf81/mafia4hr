@@ -52,10 +52,17 @@
     padding-left: 6rem;
     padding-right: 6rem;
   }
+  &--space {
+    margin: 2rem;
+    display: inline-block;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .btn {
     font-size: 1.5rem;
+  }
+  &--space {
+    margin: 2rem;
   }
 }
