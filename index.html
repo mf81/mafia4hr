@@ -1,36 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter:wght@400;600;700&family=Poppins:ital,wght@0,200;0,400;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/normalize/normalize.css" />
-    <link rel="stylesheet" href="css/style.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter:wght@400;600;700&family=Poppins:ital,wght@0,200;0,400;1,700&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="stylesheet" href="css/normalize/normalize.css" />
+      <link rel="stylesheet" href="css/style.css" />
 
-    <title>DEMO MAFIA SITE</title>
-  </head>
-  <body>
-    <section class="block block--dark block--skewed-right">
-      <div class="container grid grid--col-2">
-        <header class="block__header banner__content">
-          <h1 class="block__heading">Mafia</h1>
-          <p class="banner__tagline">Your problem, our solition</p>
-          <a href="#" class="btn btn--accent btn--long btn--space"
-            >Kill your problem</a
-          >
-        </header>
-        <svg class="banner banner__img" viewBox="0 0 25 25">
-          <use xlink:href="img/sprite.svg#main-icon"></use>
+      <title>DEMO MAFIA SITE</title>
+    </head>
+    <body>
+      <nav class="nav collaps">
+        <a href="/">
+        <svg class="icon" viewBox="0 0 25 25">
+          <use xlink:href="img/sprite.svg#mafia-icon"></use>
+        </svg></a>
+        <h1>Mafia DEMO for HR</h1>
+        <svg class="icon icon--white nav__toggler">
+          <use xlink:href="img/sprite.svg#menu"></use>
         </svg>
-      </div>
-    </section>
-    <script src="js/collaps.js"></script>
-  </body>
+        <ul class="list nav__list collaps__content">
+          <li class="nav__item"><a href="#">Killing</a></li>
+          <li class="nav__item"><a href="#">Rabering</a></li>
+          <li class="nav__item"><a href="#">Kidnapping</a></li>
+          <li class="nav__item"><a href="#">Prices</a></li>
+        </ul>
+      </nav>
+
+      <script src="js/collaps.js"></script>
+    </body>
+  </html>
 </html>
