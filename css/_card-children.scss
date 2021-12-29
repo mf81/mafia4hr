@@ -39,6 +39,21 @@
   }
 }
 
+@media screen and (min-width: 768px) {
+  .card-children {
+    transition: transform 0.2s ease-out;
+    &--popular {
+      transform: scale(1.1);
+    }
+    &:hover {
+      transform: scale(1.1);
+    }
+    &--popular:hover {
+      transform: scale(1.15);
+    }
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .card-children {
     &__name {

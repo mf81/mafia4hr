@@ -16,6 +16,9 @@
     background: $color-secondary;
     color: white;
   }
+  &--primary .badge--primary {
+    background: #126de4;
+  }
   &--secondary .badge--secondary {
     background: #02cdf1;
   }
