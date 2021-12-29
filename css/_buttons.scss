@@ -11,6 +11,7 @@
   padding: 2rem 3rem;
   border: 0;
   border-radius: 40px;
+  outline: 0;
   cursor: pointer;
   white-space: nowrap;
   text-align: center;
@@ -56,13 +57,20 @@
     margin: 2rem;
     display: inline-block;
   }
+  .icon {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+    vertical-align: middle;
+  }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   .btn {
     font-size: 1.5rem;
-  }
-  &--space {
-    margin: 2rem;
+
+    &--space {
+      margin: 2rem;
+    }
   }
 }
