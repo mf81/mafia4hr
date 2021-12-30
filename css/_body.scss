@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+::selection {
+  background: $color-primary;
+  color: white;
+}
+
 html {
   // 62,5% of 16 px = 10px
   font-size: 62.5%;
@@ -32,6 +37,7 @@ h2 {
 }
 h3 {
   font-size: 3rem;
+  font-weight: 500;
 }
 
 p {

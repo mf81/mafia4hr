@@ -1,0 +1,21 @@
+/* showcase */
+.showcase {
+  &__img > img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .showcase {
+    &__img {
+      justify-self: end;
+    }
+    &__img > img {
+      max-width: 700px;
+      width: auto;
+    }
+    & .grid {
+      grid-template-columns: 50% 50%;
+    }
+  }
+}

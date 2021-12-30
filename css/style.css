@@ -8,6 +8,16 @@
   box-sizing: border-box;
 }
 
+::-moz-selection {
+  background: #2584ff;
+  color: white;
+}
+
+::selection {
+  background: #2584ff;
+  color: white;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -36,6 +46,7 @@ h2 {
 
 h3 {
   font-size: 3rem;
+  font-weight: 500;
 }
 
 p {
@@ -125,13 +136,13 @@ a {
 .list {
   list-style: none;
   padding-left: 0;
-  color: #1b0760;
 }
 .list--inline .list__item {
   display: inline-block;
   margin-right: 2rem;
 }
 .list--tick {
+  color: #1b0760;
   list-style-image: url(../img/tick.svg);
   padding-left: 3rem;
 }
@@ -375,6 +386,7 @@ a {
 /* media */
 .media {
   display: flex;
+  margin-bottom: 4rem;
 }
 .media__title {
   margin-top: 0;
@@ -544,18 +556,20 @@ a {
   background: black;
   color: #7b858b;
 }
-.block--dark .block__heading {
+.block--dark h1,
+.block--dark h2,
+.block--dark h3 {
   color: white;
 }
 .block--skewed-right {
   padding-bottom: 10rem;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
-          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
 }
 .block--skewed-left {
   padding-bottom: 10rem;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-          clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 }
 
 @media screen and (min-width: 1024px) {
@@ -714,5 +728,22 @@ a {
 @media screen and (min-width: 768px) {
   .feature:nth-of-type(even) .feature__content {
     order: 2;
+  }
+}
+/* showcase */
+.showcase__img > img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .showcase__img {
+    justify-self: end;
+  }
+  .showcase__img > img {
+    max-width: 700px;
+    width: auto;
+  }
+  .showcase .grid {
+    grid-template-columns: 50% 50%;
   }
 }/*# sourceMappingURL=style.css.map */
