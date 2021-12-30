@@ -461,7 +461,7 @@ a {
 .testimonial__img {
   position: relative;
 }
-.testimonial__img > img {
+.testimonial__img > img, .testimonial > picture {
   width: 100%;
 }
 .testimonial__img > .icon-container {
@@ -548,6 +548,7 @@ a {
 }
 .block__header {
   text-align: center;
+  margin-bottom: 4rem;
 }
 .block__heading {
   margin-top: 0;
@@ -746,4 +747,5 @@ a {
   .showcase .grid {
     grid-template-columns: 50% 50%;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+/* testimonial-block *//*# sourceMappingURL=style.css.map */
