@@ -748,4 +748,70 @@ a {
     grid-template-columns: 50% 50%;
   }
 }
-/* testimonial-block *//*# sourceMappingURL=style.css.map */
+/* footer */
+.footer {
+  background: #232323;
+}
+.footer__section {
+  padding: 2rem;
+  border-bottom: 1px solid #393939;
+}
+.footer__heading {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.footer__brand {
+  margin-top: 5rem;
+  text-align: center;
+  white-space: nowrap;
+}
+.footer__mafiaicon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+.footer__mafiaicon .icon {
+  width: 6rem;
+  height: 6rem;
+}
+.footer__copyright {
+  font-size: 1.4rem;
+  opacity: 0.6;
+}
+.footer__copyright p {
+  margin: 0;
+}
+.footer a {
+  color: #777;
+  transition: color 0.3s;
+}
+.footer a:hover {
+  color: white;
+}
+.footer__section .list {
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__sections {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  }
+  .footer .collaps__chevron {
+    display: none;
+  }
+  .footer .collaps__content {
+    opacity: 1;
+    max-height: 100%;
+  }
+  .footer__brand {
+    margin-top: 1rem;
+    order: -1;
+  }
+  .footer__section {
+    border: 0;
+  }
+  .footer__heading {
+    font-size: 1.6rem;
+  }
+}/*# sourceMappingURL=style.css.map */

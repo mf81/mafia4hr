@@ -1,0 +1,73 @@
+/* footer */
+.footer {
+  background: #232323;
+
+  &__section {
+    padding: 2rem;
+    border-bottom: 1px solid #393939;
+  }
+  &__heading {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  &__brand {
+    margin-top: 5rem;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  &__mafiaicon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+  }
+  &__mafiaicon .icon {
+    width: 6rem;
+    height: 6rem;
+  }
+  &__copyright {
+    font-size: 1.4rem;
+    opacity: 0.6;
+    p {
+      margin: 0;
+    }
+  }
+  & a {
+    color: #777;
+    transition: color 0.3s;
+  }
+  & a:hover {
+    color: white;
+  }
+  &__section .list {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    &__sections {
+      grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    }
+    .collaps__chevron {
+      display: none;
+    }
+    .collaps__content {
+      opacity: 1;
+      max-height: 100%;
+    }
+    &__brand {
+      margin-top: 1rem;
+      order: -1;
+    }
+    &__section {
+      border: 0;
+    }
+
+    &__heading {
+      font-size: 1.6rem;
+    }
+  }
+}
