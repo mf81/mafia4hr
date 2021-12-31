@@ -17,6 +17,393 @@
     <title>DEMO MAFIA SITE</title>
   </head>
   <body>
+    <header>
+      <nav class="nav collaps">
+        <a href="/">
+          <svg class="icon" viewBox="0 0 25 25">
+            <use xlink:href="img/sprite.svg#mafia-icon"></use>
+          </svg>
+        </a>
+        <h1>Mafia DEMO for HR</h1>
+        <svg class="icon icon--white nav__toggler">
+          <use xlink:href="img/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collaps__content">
+          <li class="nav__item"><a href="#">Killing</a></li>
+          <li class="nav__item"><a href="#">Rabering</a></li>
+          <li class="nav__item"><a href="#">Kidnapping</a></li>
+          <li class="nav__item"><a href="#">Prices</a></li>
+        </ul>
+      </nav>
+      <section class="block block--dark block--skewed-right">
+        <div class="container grid grid--col-2">
+          <header class="block__header banner__content">
+            <h1 class="block__heading">Mafia</h1>
+            <p class="banner__tagline">Your problem, our solition</p>
+            <a href="#" class="btn btn--accent btn--space">Kill your problem</a>
+          </header>
+          <svg class="banner banner__img" viewBox="0 0 25 25">
+            <use xlink:href="img/sprite.svg#main-icon"></use>
+          </svg>
+        </div>
+      </section>
+    </header>
+    <section class="block container purchase">
+      <header class="block__header">
+        <h2>Start killing at 9$ per month</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel,
+          voluptates! Atque, ut commodi error inventore in deleniti quis, harum
+          saepe adipisci qui recusandae aliquam eos sapiente numquam? Delectus,
+          a deserunt?
+        </p>
+      </header>
+      <div class="input-group">
+        <input type="text" class="input" placeholder="Enter your wish" />
+        <button class="btn btn--accent">
+          <svg class="icon icon--white">
+            <use xlink:href="img/sprite.svg#search"></use>
+          </svg>
+          Do it ...
+        </button>
+      </div>
+      <ul class="list purchase__prices">
+        <li><span class="badge badge--secondary">killing</span></li>
+        <li>kidnaping</li>
+        <li>reaping</li>
+        <li>torturing</li>
+        <li>selfi body</li>
+        <li>hand made</li>
+      </ul>
+    </section>
+    <section class="block container plan-blocks">
+      <div class="grid grid--col-3">
+        <div class="card-children">
+          <div class="card card--secondary">
+            <header class="card__header">
+              <h3 class="card-children__name">Title</h3>
+              <span class="card-children__price">40 zł</span>
+              <span class="card-children__billing">/miesiąc</span>
+              <span class="badge badge--secondary badge--small"
+                >10% zniżki</span
+              >
+              <span class="card-children__discription"
+                >Będziesz zadowolony</span
+              >
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Item1</li>
+                <li class="list__item">Item2</li>
+                <li class="list__item">Item3</li>
+              </ul>
+              <button class="btn btn--outline btn--block">Wykup teraz</button>
+            </div>
+          </div>
+        </div>
+        <div class="card-children card-children--popular">
+          <div class="card card--primary">
+            <header class="card__header">
+              <h3 class="card-children__name">Title</h3>
+              <span class="card-children__price">40 zł</span>
+              <span class="card-children__billing">/miesiąc</span>
+              <span class="badge badge--primary badge--small">10% zniżki</span>
+              <span class="card-children__discription"
+                >Będziesz zadowolony</span
+              >
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Item1</li>
+                <li class="list__item">Item2</li>
+                <li class="list__item">Item3</li>
+              </ul>
+              <button class="btn btn--outline btn--block">Wykup teraz</button>
+            </div>
+          </div>
+        </div>
+        <div class="card-children">
+          <div class="card card--secondary">
+            <header class="card__header">
+              <h3 class="card-children__name">Title</h3>
+              <span class="card-children__price">40 zł</span>
+              <span class="card-children__billing">/miesiąc</span>
+              <span class="badge badge--secondary badge--small"
+                >10% zniżki</span
+              >
+              <span class="card-children__discription"
+                >Będziesz zadowolony</span
+              >
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Item1</li>
+                <li class="list__item">Item2</li>
+                <li class="list__item">Item3</li>
+              </ul>
+              <button class="btn btn--outline btn--block">Wykup teraz</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block container">
+      <header class="block__header">
+        <h2>Host on MOP buzzom</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
+          beatae!
+        </p>
+      </header>
+      <article class="grid grid--col-2 feature">
+        <div class="feature__content">
+          <span class="icon-container">
+            <svg class="icon icon--secondary">
+              <use xlink:href="../img/sprite.svg#easy"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Super easy to kill</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            possimus assumenda ducimus alias aut nemo libero corrupti tempora
+            harum ipsa!
+          </p>
+          <a href="#" class="link-arrow">Learn More</a>
+        </div>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="../img/easy.webp 1x, ../img/easy@2x.webp 2x"
+          />
+          <source
+            type="image/png"
+            srcset="../img/easy.png 1x, ../img/easy@2x.png 2x"
+          />
+          <img class="feature__img" src="../img/easy.png" alt="easy pic" />
+        </picture>
+      </article>
+      <article class="grid grid--col-2 feature">
+        <div class="feature__content">
+          <span class="icon-container">
+            <svg class="icon icon--secondary">
+              <use xlink:href="img/sprite.svg#easy"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Super easy to kill</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            possimus assumenda ducimus alias aut nemo libero corrupti tempora
+            harum ipsa!
+          </p>
+          <a href="#" class="link-arrow">Learn More</a>
+        </div>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="../img/easy.webp 1x, ../img/easy@2x.webp 2x"
+          />
+          <source
+            type="image/png"
+            srcset="../img/easy.png 1x, ../img/easy@2x.png 2x"
+          />
+          <img class="feature__img" src="../img/easy.png" alt="easy pic" />
+        </picture>
+      </article>
+      <article class="grid grid--col-2 feature">
+        <div class="feature__content">
+          <span class="icon-container">
+            <svg class="icon icon--secondary">
+              <use xlink:href="img/sprite.svg#easy"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Super easy to kill</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            possimus assumenda ducimus alias aut nemo libero corrupti tempora
+            harum ipsa!
+          </p>
+          <a href="#" class="link-arrow">Learn More</a>
+        </div>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="../img/easy.webp 1x, ../img/easy@2x.webp 2x"
+          />
+          <source
+            type="image/png"
+            srcset="../img/easy.png 1x, ../img/easy@2x.png 2x"
+          />
+          <img class="feature__img" src="../img/easy.png" alt="easy pic" />
+        </picture>
+      </article>
+    </section>
+
+    <section class="block block--dark block--skewed-right showcase">
+      <header class="block__header">
+        <h2>Use as frendly with online Control Kill Panel</h2>
+      </header>
+      <div class="container grid grid--col-2">
+        <picture class="showcase__img">
+          <source
+            type="image/webp"
+            srcset="img/ipad.webp 1x, img/ipad@2x.webp 2x" />
+          <source
+            type="image/png"
+            srcset="img/ipad.png 1x, img/ipad@2x.png 2x" />
+
+          <img src="img/ipad.png" alt="ipad"
+        /></picture>
+        <ul class="list">
+          <li>
+            <div class="media">
+              <div class="media__img">
+                <svg class="icon icon--primary">
+                  <use xlink:href="img/sprite.svg#wordpress"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Some title</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Maiores ducimus autem reprehenderit neque, fugiat, aliquid,
+                  aliquam quam asperiores optio magni porro corporis distinctio
+                  animi itaque excepturi. Necessitatibus repellat sint qui?
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <div class="media__img">
+                <svg class="icon icon--primary">
+                  <use xlink:href="img/sprite.svg#wordpress"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Some title</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Maiores ducimus autem reprehenderit neque, fugiat, aliquid,
+                  aliquam quam asperiores optio magni porro corporis distinctio
+                  animi itaque excepturi. Necessitatibus repellat sint qui?
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <div class="media__img">
+                <svg class="icon icon--primary">
+                  <use xlink:href="img/sprite.svg#wordpress"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Some title</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Maiores ducimus autem reprehenderit neque, fugiat, aliquid,
+                  aliquam quam asperiores optio magni porro corporis distinctio
+                  animi itaque excepturi. Necessitatibus repellat sint qui?
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="block">
+      <header class="block__header">
+        <h2>What our Friends are saying</h2>
+      </header>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto
+        voluptas ducimus dolores, nobis dolor nemo magni praesentium modi,
+        consequuntur quae ipsam et ex explicabo eveniet, sed quisquam ut quas
+        ipsum.
+      </p>
+      <div class="container">
+        <div class="card testimonial">
+          <div class="grid grid--col-2">
+            <div class="testimonial__img">
+              <picture class="testimonial__img">
+                <source
+                  type="image/webp"
+                  srcset="
+                    img/resize/mf.webp    1x,
+                    img/resize/mf@2x.webp 2x,
+                    img/resize/mf@3x.webp 3x
+                  "
+                />
+                <source
+                  type="image/png"
+                  srcset="
+                    img/resize/mf.png    1x,
+                    img/resize/mf@2x.png 2x,
+                    img/resize/mf@3x.png 3x
+                  "
+                />
+                <img
+                  class="testimonial__img"
+                  src="img/resize/mf.png"
+                  alt="Maciej Fijałkowski"
+                />
+              </picture>
+              <span class="icon-container icon-container-accent">
+                <svg class="icon icon--white icon--small">
+                  <use xlink:href="img/sprite.svg#quotes"></use>
+                </svg>
+              </span>
+            </div>
+            <blockquote class="quote">
+              <p class="quote__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+                sapiente possimus minima cum voluptas ab architecto quibusdam
+                rem aliquam eos! Odit labore incidunt eveniet necessitatibus
+                libero eaque accusamus enim maxime.
+              </p>
+              <footer>
+                <div class="media">
+                  <div class="media__img">
+                    <svg class="icon icon--primary quote__line">
+                      <use xlink:href="img/sprite.svg#line"></use>
+                    </svg>
+                  </div>
+                  <div class="media__body">
+                    <h3 class="media__title quote__author">
+                      Maciej Fijałkowski
+                    </h3>
+                    <p class="quote__organization">Mafia Co.</p>
+                  </div>
+                </div>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="callout callout--priamry">
+        <div class="grid grid--col-2">
+          <div class="callout__content">
+            <h2 class="callout__heading">Ready to Kill your problem?</h2>
+            <p class="callout__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Aspernatur beatae consectetur cupiditate esse natus assumenda
+              optio impedit soluta. Saepe labore molestias corporis, voluptatum
+              nesciunt, pariatur eos ipsam iusto minus provident libero
+              possimus! Quasi distinctio necessitatibus doloribus maiores error
+              quod vitae. Illum sint nihil cumque assumenda fugiat eaque
+              quisquam architecto quos.
+            </p>
+          </div>
+          <a href="#" class="btn btn--secondary btn--long">Get started</a>
+        </div>
+      </div>
+    </section>
+
     <footer class="block block--dark footer">
       <section class="container grid footer__sections">
         <div class="collaps collaps--expander footer__section">
@@ -79,6 +466,7 @@
         </section>
       </section>
     </footer>
+
     <script src="js/collaps.js"></script>
   </body>
 </html>

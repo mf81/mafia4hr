@@ -19,11 +19,11 @@
   }
   &--skewed-right {
     padding-bottom: 10rem;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
   }
   &--skewed-left {
     padding-bottom: 10rem;
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
   }
 }
 
@@ -31,6 +31,12 @@
   .block {
     &__header {
       text-align: left;
+    }
+    &--skewed-right {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+    }
+    &--skewed-left {
+      clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
     }
   }
 }
