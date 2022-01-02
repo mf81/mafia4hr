@@ -50,8 +50,16 @@
     display: inline-block;
   }
   &--long {
-    padding-left: 6rem;
-    padding-right: 6rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  &--short {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .callout &--long {
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
   &--space {
     margin: 2rem;
@@ -71,6 +79,14 @@
 
     &--space {
       margin: 2rem;
+    }
+    .callout &--long {
+      padding-left: 6rem;
+      padding-right: 6rem;
+    }
+    .callout &--short {
+      padding-left: 6rem;
+      padding-right: 6rem;
     }
   }
 }

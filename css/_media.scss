@@ -1,7 +1,7 @@
 /* media */
 .media {
   display: flex;
-  margin-bottom: 4rem;
+  margin-bottom: 0.5rem;
 
   &__title {
     margin-top: 0;
@@ -12,5 +12,10 @@
   }
   &__img {
     margin-top: 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .media {
+    margin-bottom: 4rem;
   }
 }

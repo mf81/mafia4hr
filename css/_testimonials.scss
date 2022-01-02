@@ -12,17 +12,26 @@
   &__img > .icon-container {
     position: absolute;
     top: 3rem;
-    right: -32px;
+    right: -26px;
   }
 
   .quote {
     font-size: 2rem;
+    margin: 0.5rem;
   }
   .quote__author {
     font-size: 1.5rem;
   }
-  .quote {
-    margin: 0;
+  // .quote {
+  //   margin-left: 0 0 0 2rem;
+  // }
+}
+
+@media screen and (min-width: 321px) {
+  .testimonial {
+    .quote {
+      margin: 4rem;
+    }
   }
 }
 

@@ -1,6 +1,6 @@
 /* callout */
 .callout {
-  padding: 4rem;
+  padding: 2rem;
   border-radius: 5px;
   &--priamry {
     background: $color-primary;
@@ -14,11 +14,19 @@
   }
   &__text {
     text-align: center;
+    font-size: 1.8rem;
   }
 
   & .btn {
     align-self: center;
     justify-self: center;
+  }
+  &__dark {
+    background: #232323;
+  }
+  &__container {
+    padding: 0 2rem;
+    margin: -14rem auto 0 auto;
   }
 }
 
