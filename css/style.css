@@ -320,7 +320,8 @@ a {
   box-shadow: 0 0 20px 10px #f3f3f3;
   overflow: hidden;
 }
-.card__header, .card__body {
+.card__header,
+.card__body {
   padding: 2rem 3rem;
 }
 .card--primary .card__header {
@@ -486,7 +487,8 @@ a {
 .testimonial__img {
   position: relative;
 }
-.testimonial__img > img, .testimonial__img > picture {
+.testimonial__img > img,
+.testimonial__img > picture {
   width: 100%;
 }
 .testimonial__img > .icon-container {
@@ -509,7 +511,7 @@ a {
 }
 @media screen and (min-width: 769px) {
   .testimonial .quote,
-.testimonial .quote__author {
+  .testimonial .quote__author {
     font-size: 2.4rem;
   }
   .testimonial .quote {
@@ -610,12 +612,12 @@ a {
 .block--skewed-right {
   padding-bottom: 8rem;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 98%);
-          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 98%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 98%);
 }
 .block--skewed-left {
   padding-bottom: 8rem;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 98%, 0 100%);
-          clip-path: polygon(0 0, 100% 0, 100% 98%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 98%, 0 100%);
 }
 
 @media screen and (min-width: 1024px) {
@@ -624,11 +626,11 @@ a {
   }
   .block--skewed-right {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
-            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
   }
   .block--skewed-left {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-            clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
   }
 }
 /* navigation bar*/
@@ -871,4 +873,4 @@ a {
   .footer__heading {
     font-size: 1.6rem;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
