@@ -7,7 +7,7 @@
   </p>
     <p align="center">
         <br />
-        <a href="http://hrdemo.datea.studio"><strong>Explore</strong></a>
+        <a href="https://mafia4hr.netlify.app"><strong>Explore</strong></a>
         OR
         RUN !!!
     </p>
