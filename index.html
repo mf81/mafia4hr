@@ -13,22 +13,22 @@
     />
     <link rel="stylesheet" href="css/normalize/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>DEMO MAFIA SITE</title>
   </head>
   <body>
     <header>
       <nav class="nav collaps">
-        <a href="/">
-          <svg class="icon" viewBox="0 0 25 25">
-            <use xlink:href="img/sprite.svg#mafia-icon"></use>
+          <a href="/">
+            <svg class="icon" viewBox="0 0 25 25">
+              <use data-aos="fade-right" xlink:href="img/sprite.svg#mafia-icon"></use>
+            </svg>
+          </a>
+          <h1 data-aos="fade-right">Mafia DEMO for HR</h1>
+          <svg class="icon icon--white nav__toggler">
+            <use xlink:href="img/sprite.svg#menu"></use>
           </svg>
-        </a>
-        <h1>Mafia DEMO for HR</h1>
-        <svg class="icon icon--white nav__toggler">
-          <use xlink:href="img/sprite.svg#menu"></use>
-        </svg>
-        <ul class="list nav__list collaps__content">
+        <ul class="list nav__list collaps__content" data-aos="fade-left">
           <li class="nav__item"><a href="#">How we work</a></li>
           <li class="nav__item"><a href="#">Warranty</a></li>
           <li class="nav__item"><a href="#">Contract</a></li>
@@ -37,18 +37,18 @@
       </nav>
       <section class="block block--dark block--skewed-right">
         <div class="container grid grid--col-2">
-          <header class="block__header banner__content">
+          <header class="block__header banner__content" data-aos="zoom-in">
             <h1 class="block__heading">Mafia</h1>
             <p class="banner__tagline">Your problem with HR, our solution</p>
             <a href="#" class="btn btn--accent btn--space">Kill your problem</a>
           </header>
-          <svg class="banner banner__img" viewBox="0 0 25 25">
+          <svg class="banner banner__img" data-aos="flip-right" viewBox="0 0 25 25">
             <use xlink:href="img/sprite.svg#main-icon"></use>
           </svg>
         </div>
       </section>
     </header>
-    <section class="block container purchase">
+    <section class="block container purchase"  data-aos="zoom-out-up">
       <header class="block__header">
         <h2>Start solving at 199$ per month</h2>
         <p>
@@ -73,7 +73,7 @@
         <li>hand made</li>
       </ul>
     </section>
-    <section class="block container plan-blocks">
+    <section class="block container plan-blocks"  data-aos="zoom-out-up">
       <div class="grid grid--col-3">
         <div class="card-children">
           <div class="card card--secondary">
@@ -153,7 +153,7 @@
         </p>
       </header>
       <article class="grid grid--col-2 feature">
-        <div class="feature__content">
+        <div class="feature__content" data-aos="fade-right">
           <span class="icon-container">
             <svg class="icon icon--secondary">
               <use xlink:href="img/sprite.svg#computer"></use>
@@ -165,7 +165,7 @@
           </p>
           <a href="#" class="link-arrow">Learn More</a>
         </div>
-        <picture>
+        <picture data-aos="zoom-in-left">
           <source
             type="image/webp"
             srcset="img/research.webp 1x, img/research@2x.webp 2x"
@@ -178,7 +178,7 @@
         </picture>
       </article>
       <article class="grid grid--col-2 feature">
-        <div class="feature__content">
+        <div class="feature__content" data-aos="fade-left">
           <span class="icon-container">
             <svg class="icon icon--secondary">
               <use xlink:href="img/sprite.svg#easy"></use>
@@ -190,7 +190,7 @@
           </p>
           <a href="#" class="link-arrow">Learn More</a>
         </div>
-        <picture>
+        <picture data-aos="zoom-in-right">
           <source
             type="image/webp"
             srcset="img/contact.webp 1x, img/contact@2x.webp 2x"
@@ -203,7 +203,7 @@
         </picture>
       </article>
       <article class="grid grid--col-2 feature">
-        <div class="feature__content">
+        <div class="feature__content"  data-aos="fade-right">
           <span class="icon-container">
             <svg class="icon icon--secondary">
               <use xlink:href="img/sprite.svg#growth"></use>
@@ -215,7 +215,7 @@
           </p>
           <a href="#" class="link-arrow">Learn More</a>
         </div>
-        <picture>
+        <picture data-aos="zoom-in-left">
           <source
             type="image/webp"
             srcset="img/boss.webp 1x, img/boss@2x.webp 2x"
@@ -234,7 +234,7 @@
         <h2>Use frendly online Control Case Panel</h2>
       </header>
       <div class="container grid grid--col-2">
-        <picture class="showcase__img">
+        <picture class="showcase__img"  data-aos="fade-right">
           <source
             type="image/webp"
             srcset="img/ipad.webp 1x, img/ipad@2x.webp 2x" />
@@ -289,7 +289,7 @@
       <div class="container container__bottom">
         <div class="card testimonial">
           <div class="grid grid--col-2">
-            <div class="testimonial__img">
+            <div class="testimonial__img"  data-aos="flip-right">
               <picture class="testimonial__img">
                 <source
                   type="image/webp"
@@ -319,7 +319,7 @@
                 </svg>
               </span>
             </div>
-            <blockquote class="quote">
+            <blockquote class="quote"  data-aos="fade-right">
               <p class="quote__text">
                 So many years I try to find a better job or finally be a programmer and right now I feel the opportunity is standing right at the (dark) conner. Right now I don't afraid future because I know that I have friends behind my back.
               </p>
@@ -345,7 +345,7 @@
     </section>
     <div class="block callout__dark"">
       <section class="container callout__container">
-        <div class="callout callout--priamry">
+        <div class="callout callout--priamry"  data-aos="fade-up">
           <div class="grid grid--col-2">
             <div class="callout__content">
               <h2 class="callout__heading">Ready to drop down your problem?</h2>
@@ -422,7 +422,10 @@
         </section>
       </section>
     </footer>
-
     <script src="js/collaps.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
